@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="685.0" prefWidth="942.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.xiezhr.controller.MainController">
+   <children>
+      <TitledPane animated="false" layoutX="22.0" layoutY="14.0" prefHeight="200.0" prefWidth="898.0" text="操作信息">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="197.0" prefWidth="869.0">
+               <children>
+                  <Button fx:id="fxconbth" layoutX="134.0" layoutY="2.0" mnemonicParsing="false" onAction="#testCon" text="测试连接" textAlignment="CENTER" />
+                   <ComboBox fx:id="comboxdb" layoutX="14.0" layoutY="2.0" prefHeight="23.0" prefWidth="113.0" promptText="请选择数据库">
+                       <items>
+                           <FXCollections fx:factory="observableArrayList">
+                               <String fx:value="oracle" />
+                               <String fx:value="mysql" />
+                           </FXCollections>
+                       </items>
+                   </ComboBox>
+                  <Button fx:id="querybtn" layoutX="215.0" layoutY="3.0" mnemonicParsing="false" onAction="#queryData" prefHeight="30.0" prefWidth="56.0" text="查询" textAlignment="CENTER" />
+                  <Button layoutX="277.0" layoutY="2.0" mnemonicParsing="false" onAction="#expExcel" text="导出excel" textAlignment="CENTER" />
+                   <Label fx:id="labconinfo" layoutX="514.0" layoutY="2.0" prefHeight="30.0" prefWidth="370.0" textFill="red" />
+                  <TextArea fx:id="sqlinput" layoutX="14.0" layoutY="38.0" prefHeight="124.0" prefWidth="874.0" promptText="请输入SQL语句" />
+                  <Button layoutX="354.0" layoutY="2.0" mnemonicParsing="false" text="批量导出" />
+
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+      <ProgressBar fx:id="progressBar" layoutX="22.0" layoutY="220.0" prefHeight="6.0" prefWidth="898.0" progress="0.0" />
+      <TableView fx:id="tabledata" layoutX="22.0" layoutY="237.0" prefHeight="433.0" prefWidth="898.0" />
+   </children>
+</AnchorPane>
