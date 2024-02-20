@@ -6,9 +6,9 @@ username = root
 password = 123456
 driver = com.mysql.jdbc.Driver
 [oracle]
-url = jdbc:oracle:thin:@192.168.205.5:1521/orcl
-username = itemdownload
-password = itemdownload
+url = jdbc:oracle:thin:@127.0.0.1:1521/orcl
+username = scott
+password = tiger
 driver = oracle.jdbc.driver.OracleDriver
 
 # 是否在日志中显示执行的SQL
