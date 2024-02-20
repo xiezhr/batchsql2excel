@@ -6,7 +6,7 @@
 
 ### 项目结构
 
-![image-20240220212407121](C:\Users\16663\AppData\Roaming\Typora\typora-user-images\image-20240220212407121.png)
+![image-20240220212407121](imgs/image-20240220212407121.png)
 
 
 
@@ -16,22 +16,22 @@
 
 > 可配置多数据源，目前支持Oracle和MySQL，后续可扩展
 
-![image-20240220213139957](C:\Users\16663\AppData\Roaming\Typora\typora-user-images\image-20240220213139957.png)
+![image-20240220213139957](imgs/image-20240220213139957.png)
 
 ② 启动项目，检查数据库连接是否正常
 
-![image-20240220213601681](C:\Users\16663\AppData\Roaming\Typora\typora-user-images\image-20240220213601681.png)
+![image-20240220213601681](imgs/image-20240220213601681.png)
 
 ③ 输入动态SQL，获取数据结果集
 
-![image-20240220213733603](C:\Users\16663\AppData\Roaming\Typora\typora-user-images\image-20240220213733603.png)
+![image-20240220213733603](imgs/image-20240220213733603.png)
 
 
 
-![image-20240220214213896](C:\Users\16663\AppData\Roaming\Typora\typora-user-images\image-20240220214213896.png)
+![image-20240220214213896](imgs/image-20240220214213896.png)
 
 ④ 将数据结果集导出成excel
 
-![image-20240220214251176](C:\Users\16663\AppData\Roaming\Typora\typora-user-images\image-20240220214251176.png)
+![image-20240220214251176](imgs/image-20240220214251176.png)
 
-![image-20240220214354719](C:\Users\16663\AppData\Roaming\Typora\typora-user-images\image-20240220214354719.png)
+![image-20240220214354719](imgs/image-20240220214354719.png)
